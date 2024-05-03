@@ -1,8 +1,7 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+from my_function.my_code import human  #pay attention to how we get to the directory
+him=human(100,50)
+him.BMI()
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
